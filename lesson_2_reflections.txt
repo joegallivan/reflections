@@ -20,3 +20,7 @@ What is the result of merging two branches together? Why do we represent it in t
 Merging 2 branches creates a single branch with the changes merged together.
 Represented diagramatically with a "parent" to each original branch to show the history clearly.
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merging can speed up the process, especially if there are no conflicts.
+Likely to be less error prone than manual merging.
+Cons: still important to thoroughly test in case of side effects - no conflicts but still problems.
