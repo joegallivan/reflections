@@ -12,3 +12,6 @@ Branch = new path for commits on a single repository.
 Use Fork to copy someone else's repository without changing the original.
 Use Clone to create a new copy, e.g for a new project independent of the original.
 Use Branch to create a new path, with intention of merging changes at some point in the future.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+You can access it even when offline, e.g in an area of pure or non existent Internet coverage.
