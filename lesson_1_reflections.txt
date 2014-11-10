@@ -1,0 +1,49 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+This was about finding the difference between different versions of a file,
+in particular when a newer version appeared to have introduced a bug which wasn't there before.
+For small files, this can be done manually with care, but for bigger files it is too tedious and error prone
+The lesson covered a simple facility to compare and highlight differences.
+On Windows, this is FC command.
+
+How could having easy access to the entire history of a file make you a better
+programmer in the long term?
+
+It can jog your memory, and let you easily see what changes you made for each version, and why.
+It may also make it easier for you to make similar changes in the future s you get a quick
+reminder of what you did previously.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+    
+Pros:
+    You can make the commits at a logically appropriate time, e.g when fixing a typo
+	or fixing a bug.
+Cons:
+    You might forget and lose sight of the reason for the change.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+A logical change, such as a new function, may span multiple files.
+Committing them together ensures that you consider them together - less error prone.
+
+How can you use the commands git log and git diff to view the history of files?
+    
+git log lets you list all changes, most recent first, so you can easily select the one(s) of interest.
+git diff lets you compare 2 files to see the changes between them.
+git diff <file1> <file2> --stat will tell you how many lines have changed between 2 files.
+
+How might using version control make you more confident to make changes that
+could break something?
+    
+Because you know you can revert to an earlier version which does not have the bug.
+You may need to be systematic if you've made several changes to get back to the version which introduced it.
+Then you can use git diff to spot where the differences are - good debugging tool.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+ Not really sure yet. I.m taking this course so that
+ it will make the Javascript one easier to use.
