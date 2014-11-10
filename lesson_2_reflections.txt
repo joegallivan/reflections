@@ -1,0 +1,9 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialise a repository, you set up a directory which Git can use to keep track of the files you want it to.
+You need to do this so Git knows what you want to include - after you tell it explicitly.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area works between the working directory and the repository.
+It provides a space in which to gather the documents you want to include in a single commit.
