@@ -5,3 +5,10 @@ Why might you want to always pull changes manually rather than having Git automa
 You may make changes remotely which you don't want to work on locally.
 Also, if you have a public repository you may not want to automatically incorporate 3rd party changes locally.
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Fork = New copy on Github of another repository on GitHub.
+Clone = copy locally of a repository originating locally or on Github.
+Branch = new path for commits on a single repository.
+Use Fork to copy someone else's repository without changing the original.
+Use Clone to create a new copy, e.g for a new project independent of the original.
+Use Branch to create a new path, with intention of merging changes at some point in the future.
