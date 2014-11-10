@@ -16,3 +16,7 @@ whilst keeping the original intact, e.g an experimental change.
 How do the diagrams help you visualize the branch structure?
 They let you see which commits belong in which branch. Are they available as standard in the GUI version?
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging 2 branches creates a single branch with the changes merged together.
+Represented diagramatically with a "parent" to each original branch to show the history clearly.
+
