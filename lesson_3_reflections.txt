@@ -15,3 +15,10 @@ Use Branch to create a new path, with intention of merging changes at some point
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 You can access it even when offline, e.g in an area of pure or non existent Internet coverage.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+You could use a manual system in which changes were checked via file compare and logged separately.
+This could be error prone, especially if changes were documented manually.
+Alternatively, you could focus all change through a change authority which only allowed one change at a time.
+i.e if programmer A had checked out a version, no one else could update it until it had been returned.
+This could be restrictive, but could make it easier to test collaborative change.
