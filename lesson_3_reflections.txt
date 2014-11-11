@@ -22,3 +22,9 @@ This could be error prone, especially if changes were documented manually.
 Alternatively, you could focus all change through a change authority which only allowed one change at a time.
 i.e if programmer A had checked out a version, no one else could update it until it had been returned.
 This could be restrictive, but could make it easier to test collaborative change.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+There is no doubt that using a separate branch does introduce additional complexities.
+Its main use in my opinion is likely to be for collaborative team working.
+Perhaps making a major change to an existing application which needs to continue whilst the change takes place.
+So the master branch could be used for bug fixes and minor changes, the extra branch for the project development.
